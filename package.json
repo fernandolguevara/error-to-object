@@ -1,5 +1,5 @@
 {
-  "name": "@propellerheads/serialize-error",
+  "name": "@propellerheads/error-to-object",
   "version": "0.0.1",
   "description": "node library to convert error instance to plain old javascript object",
   "main": "dist/index.js",

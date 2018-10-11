@@ -1,0 +1,38 @@
+{
+  "name": "@propellerheads/serialize-error",
+  "version": "0.0.1",
+  "description": "node library to convert error instance to plain old javascript object",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandolguevara/error-to-object.git"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "test": "cross-env BABEL_ENV=production jest",
+    "list": "eslint src test",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir dist --source-maps",
+    "prepublish": "npm run clean && npm run list && npm run test && npm run build"
+  },
+  "author": "Fernando López Guevara <fernando.lguevara@gmail.com> (https://github.com/fernandolguevara)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.1",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "@propellerheads/is-error": "^0.0.2",
+    "@propellerheads/serialize-error": "^0.0.2"
+  }
+}

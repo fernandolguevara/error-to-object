@@ -1,0 +1,16 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb-base",
+    "plugins": [
+        "jest"
+    ],
+    "env": {
+        "jest/globals": true
+    },
+    "rules": {
+        "comma-dangle": [
+            "error",
+            "only-multiline"
+        ]
+    }
+}

@@ -1,3 +1,3 @@
-# is-error
+# error-to-object
 
-node library to check if the passed value is an error
+node library to convert error instance to plain old javascript object

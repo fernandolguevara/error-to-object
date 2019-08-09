@@ -1,6 +1,6 @@
 {
   "name": "@propellerheads/error-to-object",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "node library to convert error instance to plain old javascript object",
   "main": "dist/index.js",
   "repository": {
